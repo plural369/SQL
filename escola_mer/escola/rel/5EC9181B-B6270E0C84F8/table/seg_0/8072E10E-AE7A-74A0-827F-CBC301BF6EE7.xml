@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8072E10E-AE7A-74A0-827F-CBC301BF6EE7" name="ALUNO">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 19:56:41 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>ALN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="190ED8D6-587B-2803-738C-8FA871F40131">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:05:19 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="F7EFA7D1-E211-C72C-ABBD-E70549484C07">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:05:19 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO" id="4D18A0DD-3799-392A-5F63-0C4C662DC38A">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:05:19 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_NASC" id="1F8B3752-8A34-63EC-17A9-AF92A2CA65A6">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:55:42 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D2718DD-512F-13F0-22D8-1AA090ECB36D" name="ALUNO_PK">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:05:19 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="190ED8D6-587B-2803-738C-8FA871F40131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="288F3563-E4A9-B526-E3F2-6D3DF2A6D46F" name="DISCIPLINA">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:31:14 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="451E7E7D-97D7-4467-F0E1-4D1361D67906">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:34:21 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="C7024960-B5FC-F17B-6DC5-FC22ED6F5CF9">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:34:21 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDITO" id="167C9C92-EF6C-741C-73C4-F99D994C0538">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:34:21 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO" id="15FFD28C-B985-3AD6-03ED-4DC2148E5818">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:34:21 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESSOR_ID" id="0F8C369D-2028-E33D-6D6B-BAB8167E54A4">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:55:53 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D294CE9F-7A1D-5D77-2BED-A7A8C7C34B8A" referredColumn="F2A1F083-09EC-78C0-57B9-01F5BCFC0DB0"/>
+</associations>
+</Column>
+<Column name="PRE_REQUISITO_ID" id="6EA6733B-4E23-3A4F-DC10-4342C5B74C17">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-06 14:16:05 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58415A69-0432-1939-1930-CFCC421EADFF" name="DISCIPLINA_PK">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:34:21 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="451E7E7D-97D7-4467-F0E1-4D1361D67906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF2B3E37-1DD0-D5CC-BD1D-C9B93A904114" name="DISCIPLINA_PROFESSOR_FK">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:55:53 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F8C369D-2028-E33D-6D6B-BAB8167E54A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

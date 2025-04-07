@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84AD0692-F6FE-240D-4BBD-3B7F319B839D" name="PROFESSOR">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:51:06 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F2A1F083-09EC-78C0-57B9-01F5BCFC0DB0">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:52:03 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO" id="330E3B68-7D40-75EE-F140-2E8CC7A3FCDC">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:55:15 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="4BEF5465-DADD-E6DB-4F32-71626D4552CD">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:55:15 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C43ECE0-E9AE-82A7-0701-2DC142AEF3BC" name="PROFESSOR_PK">
+<createdBy>O&apos;Conner</createdBy>
+<createdTime>2025-04-04 20:55:15 UTC</createdTime>
+<ownerDesignName>escola</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2A1F083-09EC-78C0-57B9-01F5BCFC0DB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
